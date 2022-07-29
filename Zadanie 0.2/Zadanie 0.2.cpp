@@ -52,7 +52,7 @@ int main()
     std:iota(numbers.begin(), numbers.end(), 1);// wypisuje wszystkie
 
 
-    //a) Wypisz wszystkie liczby(for_each + unary function) - funkcja przyjmuj¹ca 1 argument
+    //a) Wypisz wszystkie liczby(for_each + unary function) - wywo³uje funkcjê na ka¿dym elemencie+funkcja przyjmuj¹ca 1 argument
     std::cout << "PODPUNKT A)" << std::endl;
 
     std::for_each(numbers.rbegin(), numbers.rend(), [](const int i) {std::cout << i << "-"; });//return (r) - iterator wspak, wypisze od ty³u
