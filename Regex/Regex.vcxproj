@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{658b3799-ef38-4066-955f-a06a90ede8fc}</ProjectGuid>
-    <RootNamespace>ZadaniaAlgorytmy</RootNamespace>
+    <ProjectGuid>{f6b5ce19-c34e-4581-afed-83c2bea2e23b}</ProjectGuid>
+    <RootNamespace>Regex</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ZadaniaAlgorytmy-random</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ZadaniaAlgorytmy.cpp" />
+    <ClCompile Include="Regex.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

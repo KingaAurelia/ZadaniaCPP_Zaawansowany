@@ -113,6 +113,11 @@ int main()
             sum += i; });
 
     std::cout << sum << std::endl;
+
+    //z uzyciem std::accumulate
+
+    auto sumOdd = [](int a, int b) {};
+    int result = std::accumulate(numbers.cbegin);
 }
 
 
